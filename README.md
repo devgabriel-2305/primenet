@@ -15,4 +15,4 @@ Este projeto apresenta uma página única para um provedor de internet fictício
 - Seções institucionais (planos, benefícios e contato)
 
 📌 Observações
-Projeto em constante evolução, com melhorias contínuas de layout e responsividade.
+-Projeto em constante evolução, com melhorias contínuas de layout e responsividade.
