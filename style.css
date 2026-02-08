@@ -115,6 +115,10 @@ img{
 .campo:focus{
     outline: none;
 }
+div#form{
+        transition: width 0.5s;
+        transition-timing-function: ease;
+    }
 .enviar{
     width: 100%;
     padding: 18px 5px;
@@ -147,7 +151,7 @@ img{
         border-bottom: 2px solid rgb(70, 111, 245);
     }
     #itens.active #menu{
-        height: calc(50vh - 80px);
+        height: calc(45vh - 80px);
         visibility: visible;
         padding: 15px 10px;
     }
@@ -156,7 +160,8 @@ img{
     }
     div#form{
         width: 340px;
-        transition: width 1s ease;
+        transition: width 0.3s, height 0.3s;
+        transition-timing-function: ease;
     }
     .btn1, .btn2{
         padding: 15px 25px;
