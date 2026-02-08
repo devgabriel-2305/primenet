@@ -156,6 +156,10 @@ img{
     }
     div#form{
         width: 340px;
+        transition: width 1s ease;
+    }
+    .btn1, .btn2{
+        padding: 15px 25px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
