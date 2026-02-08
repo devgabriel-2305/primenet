@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Net</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-indigo-900 to-slate-900">
+    
+    <header class="bg-white/20 backdrop-blur">
+        <h1 class="text-white font-bold text-3xl">Prime<span class="text-indigo-400">Net</span></h1>
+
+        <nav id="itens" class="text-gray-200">
+             <button id="btn-mobile"><span id="simbol" class="material-symbols-outlined">Menu</span></button>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="h-screen grid grid-cols-1 md:grid-cols-2 items-center pt-30 pl-7 md:pl-10 bg-gradient-to-r from-indigo-600/30 to-cyan-500/30">
+        <div>
+            <h2 class="text-white text-5xl lg:text-6xl xl:text-7xl  mt-10 font-bold md:mt-0">Internet de <br> <span class="text-sky-500">Alta Performace</span></h2>
+
+            <p class="msg max-w-xl mt-3 text-sm font-medium">Fibra óptica real, ultra velocidade, estabilidade total e suporte humano 24h.</p>
+
+            <div class="flex gap-10">
+                <a class="btn1 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-2xl hover:scale-105 transition duration-150" href="#planos">Ver planos</a>
+                <a class="btn2 rounded-2xl" href="#contato">Contratar Agora</a>
+            </div>
+        </div>
+
+        <div class="image lg:mx-8">
+            <img class=" rounded-3xl w-full max-w-lg hover:scale-105 transition duration-500" src="imagens/img001.jpg" alt="Internet rapida">
+        </div>
+    </section>
+
+    <section id="planos" class="mx-auto pt-20 py-25">
+        <h2 class="text-center text-white text-3xl md:text-4xl font-bold mb-15">Escolha seu <span class="text-indigo-400">Plano Ideal</span></h2>
+
+        <div class="grid grid-cols-1 max-w-6xl mx-auto gap-8 md:grid-cols-3 justify-items-center px-8">
+            <div class="plano bg-white/10 hover:-translate-y-3 transition">
+                <h3 class="text-xl font-bold mb-1">200 Mega</h3>
+                <p class="text-gray-400 mb-5">Uso diário</p>
+                <p class="text-4xl font-bold text-indigo-400">R$ 89,90</p>
+                <a class="btnplano" href="">Assinar</a>
+            </div>
+            
+            <div class="plano bg-gradient-to-br from-indigo-600 to-cyan-600">
+                <h3 class="text-xl font-bold mb-1">400 Mega</h3>
+                <p class="text-gray-200 mb-5">Mais escolhido</p>
+                <p class="text-4xl font-bold">R$ 109,90</p>
+                <a class="btndestaque" href="">Assinar Agora</a>
+            </div>
+
+            <div class="plano bg-white/10 hover:-translate-y-3 transition">
+                <h3 class="text-xl font-bold mb-1">800 Mega</h3>
+                <p class="text-gray-400 mb-5">Ultra Velocidade</p>
+                <p class="text-4xl font-bold text-cyan-400">R$ 139,90</p>
+                <p id="assdestaque" class="btnplano"><a href="">Assinar</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="bg-blue-950 pb-15">
+        <h2 class="text-center text-white text-3xl md:text-4xl font-bold p-15 mt-8">Por que escolher a <span class="text-indigo-400">Internet Prime</span>?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 justify-items-center text-center space-y-10">
+            <div>
+                <p class="text-5xl mb-4">&#x26A1;</p>
+                <h3 class="vantagens">Fibra Óptica</h3>
+                <p class="text-slate-400">Internet rápida e estável de verdade</p>
+            </div>
+
+            <div>
+                <p class="text-5xl mb-4">&#x1F6E1;</p>
+                <h3 class="vantagens">Conexão Segura</h3>
+                <p class="text-slate-400">Proteção e estabilidade total.</p>
+            </div>
+
+            <div>
+                <p class="text-5xl mb-4">&#x1F4DE;</p>
+                <h3 class="vantagens">Suporte 24h</h3>
+                <p class="text-slate-400">Atendimento humano sempre disponível.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2 class="text-center text-white text-3xl md:text-4xl font-bold mt-20 mb-8 ">Fale com a <span class="text-indigo-400">gente</span></h2>
+        <div id="form" class="max-w-lg mx-auto py-6">
+
+            <form class="bg-white/10 border border-white/20 space-y-6 py-9 px-10 rounded-3xl" action="" method="post">
+                <input class="campo p-4 rounded-xl" type="text" name="nome" id="inome" placeholder="Nome" required>
+
+                <input class="campo p-4 rounded-xl" type="tel" name="tel" id="itel" placeholder="Telefone" required>
+
+                <textarea class="campo p-4 rounded-xl" name="msg" id="imsg" rows="3" placeholder="Mensagem"></textarea>
+
+                <input class="enviar bg-gradient-to-r from-indigo-500 to-cyan-500 hover:scale-105 transition font-semibold" type="submit" value="Enviar Mensagem">
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-sm text-center p-12 text-slate-400">
+        © 2026 Internet Prime • Todos os direitos reservados
+        <p>Site desenvolvido por <a class="hover:underline text-semibold" href="https://github.com/devgabriel-2305" target="_blank">Gabriel Damião</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
