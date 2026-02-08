@@ -155,7 +155,7 @@ img{
         display: none;
     }
     div#form{
-        width: 380px;
+        width: 340px;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
